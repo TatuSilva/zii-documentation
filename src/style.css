@@ -1,0 +1,111 @@
+#main-doc
+{
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 126px;
+}
+
+h1
+{
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+  border: solid;
+  border-width: thin;
+  border-radius: 5px;
+  width: 72vw;
+  background-color: black;
+  color: white;
+}
+
+header
+{
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #9F9F9F;
+  width: 60vw;
+  padding: 10px;
+}
+
+.main-section
+{
+  border: solid;
+  border-width: thin;
+  border-radius: 5px;
+  line-height: 30px;
+  padding: 10px;
+  width: 70vw;
+  margin: auto;
+}
+
+.text
+{
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  width: 90%;
+  margin: auto;
+}
+
+.list
+{
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.nav-header
+{
+  font-size: 13px;
+  width: 15vw;
+  align: center;
+  margin: auto;
+}
+
+#navbar {
+  width: 18vw;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+  top: 1;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding: 5px;
+  margin: auto;
+  border: solid;
+  border-width: thin;
+  border-radius: 10px;
+}
+
+.nav-link
+{
+  font-family:"roboto", sans-serif;
+  font-size: 20px;
+  color: black;
+  margin: auto;
+  line-height: 30px;
+}
+
+@media (max-width: 500px)
+{
+  #navbar {font-size: 10px;
+    padding-left: 30px;}
+  .nav-link {font-size: 10px;
+  line-height: 10px;}
+  header {line-height: 15px;
+  font-size: 10px;}
+  h1 {font-size: 15px;}
+  .nav-header {font-size: 12px;}
+  .text {font-size: 10px;}
+  .main-section {line-height: 15px;}
+  .list{font-size: 10px; line-height: 15px;}
+}
